@@ -62,7 +62,7 @@ const CommentSection = ({author, text}) => {
         </p>
       }
       datetime={
-        <Tooltip author = {moment().format('YYYY-MM-DD HH:mm:ss')}> a few second ago
+        <Tooltip author = {moment().format('YYYY-MM-DD HH:mm:ss')}> a few seconds ago
         </Tooltip>
       }
     />
