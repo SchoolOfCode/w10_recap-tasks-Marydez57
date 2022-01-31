@@ -40,3 +40,6 @@ If you'd like to carry on with this repo, here are some ideas:
 - Explore what else you can do with Auth0 to add additional auth to your blog (such as roles).
 - Add test files and tests for your components.
 - Create and deploy a REST API back end to serve your articles.
+
+
+- App deployed on Netlify: https://practical-shockley-06dc37.netlify.app/
