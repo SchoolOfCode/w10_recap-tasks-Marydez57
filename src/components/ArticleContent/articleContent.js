@@ -1,14 +1,16 @@
 import React from 'react';
 import { Button } from 'antd';
+import {LikeOutlined} from '@ant-design/icons'
+import css from './ArticleContent.module.css'
 
-const ArticleContent = ({author:title, text}) => {
+const ArticleContent = ({title, text}) => {
   return (
-  <section className='section'>
-  <h2 className='title'>{title}</h2>
+  <section className={css.section}>
+  <h2 className={css.title}>{title}</h2>
   {text.map((p) => (
-      <p className='text' key ={p.id} >{p.text}</p>
+      <p className={css.text} key ={p.id} >{p.text}</p>
   ))}
-  <Button className='btn'  type="primary">Like 👍</Button>
+  <Button className={css.btn}  type="primary" icon={<LikeOutlined />}>Like </Button>
 
   </section>
   )

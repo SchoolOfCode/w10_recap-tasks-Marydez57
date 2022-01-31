@@ -2,6 +2,7 @@ import React from 'react';
 import articles from '../../libs/articles';
 import ArticleContent from '../ArticleContent/articleContent';
 import CommentSection from '../CommentSection/commentSection';
+import css from './Articles.module.css'
 
 const ArticleContainer = () => {
   return (

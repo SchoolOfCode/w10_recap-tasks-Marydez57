@@ -1,8 +1,10 @@
 .container {
     display: flex;
+    text-align: center;
     flex-direction: column;
     flex-grow: 1;
     min-height: 20vh;
-    background-color: #0903276c;
+    color: cornsilk;
+    background-color: hsl(202, 86%, 6%);
   }
   

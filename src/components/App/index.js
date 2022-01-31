@@ -1,14 +1,13 @@
-import Articles from "../Articles/articles";
 import LoginButton from "../UserLogin/userLoginButton";
-import LogoutButton from "../UserLogout/userLogoutButton";
-import "./App.css";
+import Wikipigeon from "../WikiPigeonPage/wikipigeon";
+import css from './App.module.css'
 
 function App() {
   return (
-    <main className="App">
-    <Articles />
-    <LoginButton />
-    <LogoutButton />
+    <main className={css.app}>
+  <Wikipigeon />
+  <LoginButton />
+  
     </main>
   );
 }
