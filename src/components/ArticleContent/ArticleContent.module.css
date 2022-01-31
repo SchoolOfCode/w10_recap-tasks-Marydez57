@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+.section {
+    margin-top: 2rem;
+  }
+  
+  .title {
+    font-family: "Lobster", cursive;
+    font-size: 2rem;
+    color: rgb(29, 144, 189);
+    padding: 1rem;
+  }
+  
+  .text {
+    font-family: "Nunito", sans-serif;
+    color: hsl(60, 3%, 6%);
+    margin-top: 1rem;
+    padding: 0.25rem;
+  }
+  
+  .btn {
+  
+    padding: 0.25rem;
+    margin-left: 2rem;
+  }

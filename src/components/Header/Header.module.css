@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #a4d4e7;
+    width: 100vw;
+    max-width: 100vw;
+    min-height: 10rem;
+  }
+  
+  /*.icon {
+    margin-left: 1rem;
+    color: #fff;
+  }*/
+  
+  h1 {
+    display: inline;
+    letter-spacing: 2px;
+    padding: 0;
+  }
+  
+  .wiki {
+    color: #0d4763;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .pigeon {
+    color: hsl(197, 87%, 18%);
+    font-family: "Lobster", cursive;
+    font-size: 4rem;
+  }
+  
